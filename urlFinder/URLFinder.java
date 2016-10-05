@@ -40,7 +40,7 @@ public class URLFinder {
             else {
                 count = count + 1;
             }
-			start = start + 2;
+			start = index + 1;
 		}			
     }
      System.out.println(count);
